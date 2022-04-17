@@ -6,18 +6,23 @@ export default function App() {
 		<div className="App">
 			<div className="container">
 				<main>
-					<Dictionary defaultKeyword="sunset" />
+					<Dictionary defaultKeyword="waterfall" />
 				</main>
 				<footer>
-					<div className="text-center">
+					<div className="text-center mt-1">
+						This project was coded by{" "}
+						<a href="https://github.com/ShianneJT" target="_blank" rel="noreferrer">
+							Shianne Taylor
+						</a>{" "}
+						and is{" "}
 						<a
 							href="https://github.com/ShianneJT/dictionary-project"
 							target="_blank"
 							rel="noreferrer"
 						>
-							Open-source code
-						</a>{" "}
-						by Shianne Taylor
+							open-sourced
+						</a>
+						.
 					</div>
 				</footer>
 			</div>
